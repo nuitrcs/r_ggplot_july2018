@@ -1,8 +1,6 @@
-**Materials have not been updated yet for Summer 2018 - in progress.**
-
 # R Visualization
 
-This workshop focuses on `ggplot2` for making plots in R.  The workshop also briefly covers `plotly`.  
+This workshop focuses on `ggplot2` for making plots in R.  The workshop also briefly covers additional packages.  
 
 This workshop also makes use of other `tidyverse` packages for data manipulation and transformation.
 
@@ -12,21 +10,30 @@ For this workshop, you'll need to install some R packages and download the works
 
 Keynote and Powerpoint versions of the slides will be included when you download the repository (below).  If you don't have either of these programs, try opening the slides with [Google Slides](https://docs.google.com/presentation/u/0/) or [PowerPoint Online](https://support.office.com/en-us/article/view-a-presentation-without-powerpoint-2f1077ab-9a4e-41ba-9f75-d55bd9b231a6).
 
+## Packages
+
+Whether using R on your laptop or in the cloud, there are several packages you'll need to install: 
+
+* tidyverse
+* babynames
+
+Install these with the R command
+
+```r
+install.packages(c("tidyverse", "babynames"), 
+                 repos="http://cran.rstudio.com")
+```
+
+or use the buttons in the Packages window in RStudio to install them.
+
+If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to the current version (3.0.0). You can use the Update button the Packages tab in RStudio to update the package.
+
+
 ## Option 1: On your laptop 
 
 ### R and RStudio
 
-This workshop assumes you have recent versions of R and RStudio - R 3.4 or 3.5 and RStudio 1.1.
-
-You'll also need the following packages and their dependencies installed and up to date:
-
-* tidyverse
-
-```r
-install.packages(c("tidyverse"), 
-                 repos="http://cran.rstudio.com")
-```
-
+This workshop assumes you have recent versions of R and RStudio - R 3.4 or 3.5 and RStudio 1.1.  Install or update packages listed above.
 
 ### Workshop Materials
 
@@ -34,32 +41,22 @@ To download workshop materials (final versions will be available 2-3 days before
 
 ![github download](images/githubdownload.png)
 
-Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r\_ggplot2\_june2018.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
+Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r\_ggplot2\_june2018-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
 
-Double click on the .Rproj folder in the folder to launch the project in RStudio.  Alternatively, open RStudio, then go to File :arrow_right: Open Project and find the .Rproj file in the r\_ggplot2\_june2018 directory to open.
+Double click on the .Rproj folder in the folder to launch the project in RStudio.  Alternatively, open RStudio, then go to File :arrow_right: Open Project and find the .Rproj file in the r\_ggplot2\_june2018-master directory to open.
 
 Alternatively, if you're familiar with git, you can create a new RStudio project directly from this repository (again, once the materials are posted).
 
 
 ## Option 2: RStudio Cloud
 
-[RStudio Cloud](https://rstudio.cloud) is a way to run RStudio in your web browser.  Set up an account.  In Your Workspace, create a New Project, selecting New Project from a Git Repository.  Provide the address of this repository: https://github.com/nuitrcs/r_ggplot2_june2018.  This will copy all of the files from this repository into your new project.  
+[RStudio Cloud](https://rstudio.cloud) is a way to run RStudio in your web browser.  Set up an account.  In Your Workspace, create a new project: Click on the down arrow next to New Project in the blue button, then select New Project from a Git Repository.  Provide the address of this repository: https://github.com/nuitrcs/r_ggplot_july2018.  This will copy all of the files from this repository into your new project.  
+
+![rstudio cloud new project](images/rstudiocloud.png)
 
 *You should wait until 2-3 days before the workshop to do this, to ensure you have the most current version of the workshop files.**
 
-You will also need to install packages in this project space:
-
-* tidyverse
-
-With the project open (opening the project will open RStudio in your web browser), install these with the R command
-
-```r
-install.packages(c("tidyverse"), 
-                 repos="http://cran.rstudio.com")
-```
-
-or use the buttons in the Packages window in the bottom right of RStudio to install them.
-
+You will also need to install packages in this project space.
 
 
 # Resources
