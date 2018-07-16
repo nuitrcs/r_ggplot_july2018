@@ -30,11 +30,6 @@ or use the buttons in the Packages window in RStudio to install them.
 
 If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to the current version (3.0.0). You can use the Update button the Packages tab in RStudio to update the package.
 
-Optional additional extension packages:
-
-* plotly
-* 
-
 
 ## Option 1: On your laptop 
 
