@@ -1,3 +1,5 @@
+**Files aren't complete yet for July 17th workshop.**
+
 # R Visualization
 
 This workshop focuses on `ggplot2` for making plots in R.  The workshop also briefly covers additional packages.  
