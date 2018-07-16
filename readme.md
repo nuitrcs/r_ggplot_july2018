@@ -20,13 +20,18 @@ Whether using R on your laptop or in the cloud, there are several packages you'l
 Install these with the R command
 
 ```r
-install.packages(c("tidyverse", "babynames"), 
+install.packages(c("tidyverse", "babynames", "maps"), 
                  repos="http://cran.rstudio.com")
 ```
 
 or use the buttons in the Packages window in RStudio to install them.
 
 If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to the current version (3.0.0). You can use the Update button the Packages tab in RStudio to update the package.
+
+Optional additional extension packages:
+
+* plotly
+* 
 
 
 ## Option 1: On your laptop 
@@ -41,9 +46,9 @@ To download workshop materials (final versions will be available 2-3 days before
 
 ![github download](images/githubdownload.png)
 
-Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r\_ggplot2\_june2018-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
+Find the downloaded .zip file on your computer, likely in your Downloads folder.  Unzip it - usually by double-clicking.  This will create a directory called r\_ggplot2\_july2018-master.  Move this somewhere on your computer where you'll be able to find it, like your Documents folder.  
 
-Double click on the .Rproj folder in the folder to launch the project in RStudio.  Alternatively, open RStudio, then go to File :arrow_right: Open Project and find the .Rproj file in the r\_ggplot2\_june2018-master directory to open.
+Double click on the .Rproj folder in the folder to launch the project in RStudio.  Alternatively, open RStudio, then go to File :arrow_right: Open Project and find the .Rproj file in the r\_ggplot2\_july2018-master directory to open.
 
 Alternatively, if you're familiar with git, you can create a new RStudio project directly from this repository (again, once the materials are posted).
 
@@ -75,7 +80,13 @@ See additional resources and links to some visualization examples in the [main R
 
 [`ggplot2` Data Visualization Vocabulary](https://medium.com/@kierisi/fc8fa4d20d2d) from Jesse Maegan: confused by unfamiliar terms in the `ggplot2` help and functions?  You can find explanations of many of them here.
 
-[`ggplot2` Extensions](https://blog.modeanalytics.com/r-ggplot-extension-packages/): a list of packages that build on `ggplot2` to add specific plots or functionality
+[`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/): list of packages that extend `ggplot2` using the same logic, with links to them on GitHub
+
+[`ggplot2` Extensions described](https://blog.modeanalytics.com/r-ggplot-extension-packages/): another list of extensions with blurbs - these extensions are generally included on the list above too
+
+[A Layered Grammar of Graphics](http://vita.had.co.nz/papers/layered-grammar.pdf): The paper by Hadley Wickham that introduced `ggplot2`; explains the grammar of graphics approach.
+
+[`ggplot2` Aesthetics Vignette](https://cran.r-project.org/web/packages/ggplot2/vignettes/ggplot2-specs.html): part of the package documentation, how the different aesthetics elements work.
 
 ## Tutorials
 
@@ -102,11 +113,6 @@ Software Carpentry: [R for Reproducible Scientific Analysis](http://swcarpentry.
 
 [Data Visualization for Social Science](http://socviz.co/): by Kieran Healy, an online book that uses `ggplot2`
 
-## Plotly
-
-[Plotly Tutorial](https://www.datacamp.com/community/blog/a-free-interactive-plotly-r-tutorial)
-
-[Plotly for R](https://cpsievert.github.io/plotly_book/index.html) by Carson Sievert
 
 ## Base R Graphics
 
@@ -121,5 +127,6 @@ A comparison on Base graphics and `ggplot2` from [Flowing Data](http://flowingda
 
 [colorblindr](https://www.rdocumentation.org/packages/colorblindr): package to help you check what your plots might look like to someone who is colorblind
 
+[ColorBrewer](http://colorbrewer2.org/): color palettes, intended for maps, but useful for other applications; accessible through `ggplot2` scales.
 
 
