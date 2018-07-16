@@ -63,6 +63,20 @@ Alternatively, if you're familiar with git, you can create a new RStudio project
 
 You will also need to install packages in this project space.
 
+# Exercises
+
+*All of these we written with a version of `ggplot2` < 3.0.0, so a few things may be different.*
+
+[R for Data Science](http://r4ds.had.co.nz/): Chapter 3 covers visualization with `ggplot2` and includes exercises.  Chapter 28 includes more advanced topics, also with exercises.  Individuals have posted their (non-vetted) solutions online.  There is also an online learning group, organized through Slack, that is working through this book: [details](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82).
+
+[R Exercises](https://www.r-exercises.com/2018/02/23/practice-you-ggplot-skills-exercises/): a set of plots, with the challenge to make them.  Includes answers.
+
+[Harvard IQSS Tutorial](https://tutorials.iq.harvard.edu/R/Rgraphics/Rgraphics.html): includes a section "Putting It All Together" with a challenge of recreating a graph from The Economist, with the answer code included (not hidden).  This is a little about the plotting, but mostly about styling.
+
+[Computing for the Social Sciences Course Exercises](https://cfss.uchicago.edu/dataviz_gapminder.html): from instructor Benjamin Soltoff, exercises using the `gapminder` data, with solutions.
+
+[UVA BIMS8382 Course Exercises](http://bims.fun/r-viz-homework.html): more exercises from a course, with solutions.  Part exericse, part walkthrough.  You can see the plots you're trying to make.
+
 
 # Resources
 
