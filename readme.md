@@ -1,5 +1,3 @@
-**Files aren't complete yet for July 17th workshop.**
-
 # R Visualization
 
 This workshop focuses on `ggplot2` for making plots in R.  The workshop also briefly covers additional packages.  
@@ -8,9 +6,9 @@ This workshop also makes use of other `tidyverse` packages for data manipulation
 
 # Software and Files
 
-For this workshop, you'll need to install some R packages and download the workshop files from this repository.
+For this workshop, you'll need to install some R packages and download the workshop files from this repository. See below.
 
-Slides are available to download separately at the links below.  They are relatively large files (~250MB).
+Slides are available to download separately at the links below; click on the link (which goes to Box), then choose the download option if you want.  They are relatively large files (~250MB).
 
 * [Keynote](https://northwestern.box.com/s/j5cedht1d28nl0kmgpil4q7trwhh446v)
 * Powerpoint: *coming soon*
@@ -65,9 +63,11 @@ You will also need to install packages in this project space.
 
 # Exercises
 
+For more practice after the workshop, see the exercises below.
+
 *All of these we written with a version of `ggplot2` < 3.0.0, so a few things may be different.*
 
-[R for Data Science](http://r4ds.had.co.nz/): Chapter 3 covers visualization with `ggplot2` and includes exercises.  Chapter 28 includes more advanced topics, also with exercises.  Individuals have posted their (non-vetted) solutions online.  There is also an online learning group, organized through Slack, that is working through this book: [details](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82).
+[R for Data Science](http://r4ds.had.co.nz/): Chapter 3 covers visualization with `ggplot2` and includes exercises.  Chapter 28 includes more advanced topics, also with exercises.  Individuals have posted their (non-vetted) solutions online (i.e. [Jeffrey Arnold](https://jrnold.github.io/r4ds-exercise-solutions/)).  There is also an online learning group, organized through Slack, that is working through this book: [details](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82).
 
 [R Exercises](https://www.r-exercises.com/2018/02/23/practice-you-ggplot-skills-exercises/): a set of plots, with the challenge to make them.  Includes answers.
 
@@ -86,7 +86,7 @@ See additional resources and links to some visualization examples in the [main R
 
 [`ggplot2` Cheat Sheet](https://github.com/rstudio/cheatsheets/raw/master/data-visualization-2.1.pdf): you'll want to have this for reference
 
-[R Graph Gallery](http://www.r-graph-gallery.com/portfolio/ggplot2-package/) for `ggplot2`
+[R Graph Gallery](http://www.r-graph-gallery.com/portfolio/ggplot2-package/) for `ggplot2` (it has base R graphics as well).  This site has code for each plot, so find what you're looking for, and modify the code.  [from Data to Viz](https://www.data-to-viz.com) has charts to help you choose a plot type (linking to the graph gallery), plus a list of [data visualization choices to avoid](https://www.data-to-viz.com/caveats.html).
 
 [R Graphics Cookbook](https://ase.tufts.edu/bugs/guide/assets/R%20Graphics%20Cookbook.pdf)
 
