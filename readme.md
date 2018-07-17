@@ -8,10 +8,10 @@ This workshop also makes use of other `tidyverse` packages for data manipulation
 
 For this workshop, you'll need to install some R packages and download the workshop files from this repository. See below.
 
-Slides are available to download separately at the links below; click on the link (which goes to Box), then choose the download option if you want.  They are relatively large files (~250MB).
+Slides are available to download separately at the links below; click on the link (which goes to Box), then choose the download option if you want.  You may be able to view the Powerpoint version directly in Box.  If you don't have these programs, try uploading to use Google Slides to view them.
 
-* [Keynote](https://northwestern.box.com/s/j5cedht1d28nl0kmgpil4q7trwhh446v)
-* Powerpoint: *coming soon*
+* [Keynote](https://northwestern.box.com/s/j5cedht1d28nl0kmgpil4q7trwhh446v): this is the original; ~250MB
+* [Powerpoint](https://northwestern.box.com/s/fl0cm2lxfuhjedssgiuinxciwkp67tbz): much smaller, some alignment/fonts might be slightly off from the conversion
 
 ## Packages
 
