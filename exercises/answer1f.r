@@ -1,9 +1,12 @@
 # Run the code below to set up the data
-# Change the points in the plot to light gray, decrease their size
-# Change the color scale for the trend lines with scale_color_viridis_d()
+# Change the color scale for the lines with scale_color_viridis_d()
+# Change the y-axis to have labels every 1000 babies and go from 0 to 11000
 
-# Bonus: What's the difference between scale_color_viridis_d() and scale_color_viridis_c()?
-# Can you define your own colors (you'll need 9 for the names): look at the help for scale manual - especailly the examples
+# What's the difference between scale_color_viridis_d() and scale_color_viridis_c()? >> check the help
+
+# Bonus: 
+# Can you define your own colors (you'll need 9 for the 9 names in the data): 
+# look at the help for scale_color_manual - especially the examples
 
 library(tidyverse)
 # Load and reshape data
@@ -13,30 +16,20 @@ unisex_data <- unisex_data %>%
   spread(sex, n, fill=0)
 unisex_data
 
-# make a scatterplot: add theme elements
-ggplot(unisex_data, aes(x=Male, y=Female, color=name)) + 
-  geom_point(color="lightgray", size=1) +
-  geom_smooth(method="lm", se=FALSE) + 
-  labs(title="Unisex Name Popularity",
-       x="# of Male Babies per Year",
-       y="# of Female Babies per Year",
-       color="Name") + 
+# make a scatterplot: color scale, axis limits
+ggplot(unisex_data, aes(x=year, y=Male+Female, color=name)) + 
+  geom_line(size=2) +
   scale_color_viridis_d() +
-  theme_minimal() + 
-  theme(plot.title=element_text(size=24))
+  scale_y_continuous(breaks=seq(0,11000,1000), limits=c(0,11000)) +
+  theme_minimal() 
 
 
 # Bonus: your own scale
 cols <- c("red","orange","yellow","lightgreen","green","lightblue","blue","purple","pink")
 names(cols) <- unique(unisex_data$name)
 
-ggplot(unisex_data, aes(x=Male, y=Female, color=name)) + 
-  geom_point(color="lightgray", size=1) +
-  geom_smooth(method="lm", se=FALSE) + 
-  labs(title="Unisex Name Popularity",
-       x="# of Male Babies per Year",
-       y="# of Female Babies per Year",
-       color="Name") + 
+ggplot(unisex_data, aes(x=year, y=Male+Female, color=name)) + 
+  geom_line(size=2) +
   scale_color_manual(values=cols) +
-  theme_minimal() + 
-  theme(plot.title=element_text(size=24))
+  theme_minimal() 
+

@@ -118,6 +118,8 @@ Software Carpentry: [R for Reproducible Scientific Analysis](http://swcarpentry.
 
 [Swirl](http://swirlstats.com/): Interactive tutorials that you run in R.  The Exploratory Data Analysis course includes sections on `ggplot2`.
 
+[50 `ggplot2` Visualizations](http://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html) - Example visualizations with code, from Selva Prabhakaran; also has some tutorials on the site.
+
 
 ## Books
 
@@ -142,5 +144,7 @@ A comparison on Base graphics and `ggplot2` from [Flowing Data](http://flowingda
 [colorblindr](https://www.rdocumentation.org/packages/colorblindr): package to help you check what your plots might look like to someone who is colorblind
 
 [ColorBrewer](http://colorbrewer2.org/): color palettes, intended for maps, but useful for other applications; accessible through `ggplot2` scales.
+
+[R Cookbook `ggplot2` Colors](http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/): examples of how to change different color options
 
 
