@@ -36,11 +36,11 @@ If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to
 
 ### R and RStudio
 
-This workshop assumes you have recent versions of R and RStudio - R 3.4 or 3.5 and RStudio 1.1.  Install or update packages listed above.
+This workshop assumes you have recent versions of R and RStudio - R 3.5 or later and RStudio 1.1.  Install or update packages listed above.
 
 ### Workshop Materials
 
-To download workshop materials (final versions will be available 2-3 days before the workshop), click on the green Clone or Download button, then download the repository as a ZIP file.  
+To download workshop materials, click on the green Clone or Download button, then download the repository as a ZIP file.  
 
 ![github download](images/githubdownload.png)
 
@@ -57,7 +57,7 @@ Alternatively, if you're familiar with git, you can create a new RStudio project
 
 ![rstudio cloud new project](images/rstudiocloud.png)
 
-*You should wait until 2-3 days before the workshop to do this, to ensure you have the most current version of the workshop files.**
+*You should wait until the morning of the workshop to do this, to ensure you have the most current version of the workshop files.**
 
 You will also need to install packages in this project space.
 
@@ -65,7 +65,7 @@ You will also need to install packages in this project space.
 
 For more practice after the workshop, see the exercises below.
 
-*All of these we written with a version of `ggplot2` < 3.0.0, so a few things may be different.*
+*Some of these we written with a version of `ggplot2` < 3.0.0, so a few things may be different.*
 
 [R for Data Science](http://r4ds.had.co.nz/): Chapter 3 covers visualization with `ggplot2` and includes exercises.  Chapter 28 includes more advanced topics, also with exercises.  Individuals have posted their (non-vetted) solutions online (i.e. [Jeffrey Arnold](https://jrnold.github.io/r4ds-exercise-solutions/)).  There is also an online learning group, organized through Slack, that is working through this book: [details](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82).
 
