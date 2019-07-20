@@ -40,3 +40,4 @@ ggplot(y2015, aes(n)) +
   labs(x="Number of Babies with Name",
        y="Number of Names, 2015",
        title="Distribution of Baby Name Frequencies")
+

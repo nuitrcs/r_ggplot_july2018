@@ -7,13 +7,17 @@
 
 
 library(tidyverse)
+
 # Load and reshape data
 unisex_data <- read_csv("data/unisex.csv")
 unisex_data <- unisex_data %>%
   select(-prop) %>%
   spread(sex, n, fill=0)
+
+# Look at the data
 unisex_data
 
 # make a scatterplot
+
 
 

@@ -2,7 +2,7 @@
 
 This workshop focuses on `ggplot2` for making plots in R.  The workshop also briefly covers additional packages.  
 
-This workshop also makes use of other `tidyverse` packages for data manipulation and transformation.
+This workshop also makes use of other `tidyverse` packages for data manipulation and transformation, but you do not need to know these packages for the exercises.
 
 # Software and Files
 
@@ -23,13 +23,13 @@ Whether using R on your laptop or in the cloud, there are several packages you'l
 Install these with the R command
 
 ```r
-install.packages(c("tidyverse", "babynames", "maps"), 
+install.packages(c("tidyverse", "babynames"), 
                  repos="http://cran.rstudio.com")
 ```
 
 or use the buttons in the Packages window in RStudio to install them.
 
-If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to the current version (3.0.0). You can use the Update button the Packages tab in RStudio to update the package.
+If you previously installed `tidyverse` or `ggplot2`, please update `ggplot2` to the current version (3.2). You can use the Update button the Packages tab in RStudio to update the package.
 
 
 ## Option 1: On your laptop 
