@@ -23,3 +23,6 @@ ggplot(casey, aes(x=Male, y=Female, color=year)) +
 
 ggplot(casey, aes(x=Male, y=Female, color=factor(decade))) + 
   geom_point() 
+
+
+# difference is in how year is mapped to color: scale vs. discrete

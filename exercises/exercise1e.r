@@ -12,7 +12,10 @@ unisex_data <- unisex_data %>%
   spread(sex, n, fill=0)
 unisex_data
 
-# make a scatterplot: add theme elements
+# Add theme_minimal() to the plot.
+# Increase the font size of the title.
+# See what other theme elements you can change
+# Look up the help for theme to see the options
 ggplot(unisex_data, aes(x=Male, y=Female, color=name)) + 
   geom_point() +
   geom_smooth(method="lm", se=FALSE) + 
